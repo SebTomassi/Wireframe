@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Monster Hunter Quiz</title>
+	<meta name="description" content="Monster Hunter Trivia Quiz">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- this div will contain all the elements on the Dom -->
+	<div id="container"> 
+		<header role="banner">
+			<h1>World Cup History Quiz</h1>
+		</header>
+		<main role="main">
+			<h2>Test your knowledge!</h2>
+			<button id="startQuiz">Start Quiz</button>
+
+      <section role="section" class="quizForm">
+        <ul>
+          <li>Question Tracker</li>
+          <li>Score Tracker</li>
+        </ul>
+        <div class="quizAnswerForm">
+          <h2>Questions are displayed here</h2>
+          <input type ='radio' required>Answer choice 1 <br/></input>
+          <input type ='radio' required>Answer choice 2 <br/></input>
+          <input type ='radio' required>Answer choice 3 <br/></input>
+          <input type ='radio' required>Answer choice 4 <br/></input>
+          <button class="submitButton">Submit</button>
+        </div>
+      </section>
+
+      <section class='quizFeedback'>
+        <div class="userFeedback">
+          <h2>Do you know your world cup history? <history></history></h2>
+          <p>Was the answer right or wrong</p>
+          <button class="nextQuestion">Next Question!</button>
+        </div>
+      </section>
+
+      <section class='quizResultReset'>
+        <div class="quizResults">
+          <h2>User's score will appear here</h2>
+          <p>Click the button below to restart the quiz</p>
+          <button class="restartQuiz">Restart Quiz</button>
+        </div>
+      </section>
+		</main>
+	</div>
+
+	
+</body>
+</html>

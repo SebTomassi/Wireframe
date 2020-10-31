@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat'
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header {
+  background-color: rgba(40, 91, 132, 0.651);
+  width: 100%;
+}
+
+main h2 {
+   background-color: rgba(184, 192, 79, 0.582);
+  width: 100%;
+}
+
+#startQuiz {
+  background-color: rgb(255, 255, 255);
+
+}
+
+.quizForm ul {
+ background-color: rgb(160, 160, 160);
+}
+
+.quizAnswerForm {
+  background-color: lightgray;
+}
+
+.userFeedback {
+  background-color: lightgray;
+}
+
+.quizResults {
+  background-color: lightgray;
+}
